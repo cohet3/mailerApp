@@ -5,7 +5,8 @@ from flask import Flask
 def create_app():
     app = Flask(__name__)
     app.config.from_mapping(
-        SENDGRID_KEY=os.environ.get(''),
+        FROM_EMAIL=os.environ.get('FROM_EMAIL'),
+        SENDGRID_KEY=os.environ.get('SENGRID_API_KEY'),
         SECRET_KEY=os.environ.get('SECRET_KEY'),
         DATABASE_HOST=os.environ.get('FLASK_DATABASE_HOST'),
         DATABASE_PASSWORD=os.environ.get('FLASK_DATABASE_PASSWORD'),
