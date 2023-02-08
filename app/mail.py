@@ -37,7 +37,7 @@ def create():
         if not email:
             errors.append('Un email es obligatorio')
         if not subject:
-            errors.append('Asunto es obligatorio')
+            errors.append('El asunto es obligatorio')
         if not content:
             errors.append('Contenido es obligatorio')
 
