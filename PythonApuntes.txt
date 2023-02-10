@@ -1,0 +1,39 @@
+
+
+                                                                            PYTHON
+-El código se ejecuta de arriba hacia abajo y es un codigo compilado por eso se escribe menos que en java.
+-Las varibales se les puede cambiar de valor y volver a otorgales valor en un futuro
+-con el Crtl+ spacio sobre una función(como por ejemplo un input) muestra del tipo q es y el valor q devuelve.
+-comentarios de una linea #, comentarios de multiples lineas """coemtarios"""
+-print(f'''lo q escribas aqui se respetara comas, espacios, {variables},saltos de linea, etc... ''')
+-brake.- sirve para romper un ciclo for, así cuando encuentre el objetivo se detendra la busqueda.
+-continue.- lo contrario a brake, continua el ciclo for
+-La diferencia entre LISTA[list] y TUPLA(tuple) es que la lista se puede modificar, agregar, eliminar... y la tupla no ocea es inmutable y la lista es modificable.
+-'\n', salto de linea
+-Los sets se declaran con {} y son como las listas pero no ordenadas. NO soporta elementos duplicados
+-Los diccionarios son como los set solo q llevan una key y un valor ejemplo: diccionario = {'IDE':'Integrated Development Environment'}
+-Para definir una función utilizamos la palabra reservada def. Cuando la definimos(parametros) cuando la llamammos(arg) se pueden tratar de una manera identica
+-con print(f'mandar un string'{nombrefuncion o parametro})
+-Todos los tipos de datos en python son dinámicos
+-kwargs.- argumentos de llave valor. La llave no lleva comillas y el valor puede ser calquier tipo de dato
+-funciones recursivas se llaman a si mismas hasta llegar a un punto deseado hay q ponerles un punto de ruptura.
+-Para imprimir solo dos decimales en los resultados {resultado:.2F} Float
+-Una clase es una plantilla de la cual podemos crear clase y objetos
+-metodo init agrega atributos a la clase y los utiliza ej: def __int__(self):
+-Atributos de instancia son los que trabajan con objetos.
+-la palabra clave pass ayuda a dejar metodos incompletos para añadir en otro momento
+-*args argumentos variablaes de tupla
+-**kwargs argumentos variables de diccionario
+-la _ en la declaración de un atributo significa q esta encapsulado y q no debemos modificarlo. Con__ no deja modificarlo.
+get= obtener/recuperar
+set= colocar/modificar
+@property hace q no pongamos parentesis en el llamado
+si no hay @nombre.setter seria una variable de solo lectura
+
+if __name__ == '__main__': con esto podemos suprimir partes de codigo q no querramos ejecutar
+
+-OPERADORES LÓGICOS:
+
+AND = A and B (devuelve true si ambos son true)
+OR = a or b (devuelve true si alguno es true)
+NOT = not a (devuelve true si alguno de los valores es false y devuelve falso si alguno de los valores es verdadero)
